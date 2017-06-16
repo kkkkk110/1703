@@ -1,0 +1,142 @@
+ul li{
+	list-style:none;
+}
+*{
+	margin:0; padding:0;
+}
+a{
+	text-decoration:none;
+}
+.container{
+	width:990px;
+	height:100%;
+	margin:0 auto;
+}
+
+.container header img:last-child{
+	float: right;
+}
+
+.box{
+	border:1px solid #ccc;
+	float:right;
+	width:372px;
+	height:480px;
+	border-top:2px solid #EA3918;
+	box-sizing:border-box;
+	padding:30px 39px 20px 39px;
+	position:relative;
+	margin-right:50px;
+	.sl{
+		font-size: 22px;
+		float: left;
+
+	}
+	.sr{
+		font-size: 12px;
+		float: right;
+	}
+
+	
+	ul li:nth-child(1) input,ul li:nth-child(2) input,ul li:nth-child(3) input{
+		margin-top: 24px;
+		width: 290px;
+		height: 32px;
+		padding:0;
+		box-sizing:border-box;
+		border:1px solid #DEDEDE;
+		padding-left:10px;
+	}
+	ul li:nth-child(4) input,ul li:nth-child(5) input{
+			width: 110px;
+			height: 31px;
+			border:1px solid #DEDEDE;
+			margin-top: 24px;
+			box-sizing:border-box;
+			padding-left: 5px;
+			color:  #99A5C2;
+
+	}
+	ul li:nth-child(5) button{
+		height: 31px;
+		width: 111px;
+		font-size: 12px;
+	}
+	ul li:nth-child(7) input{
+			width:282px;
+			height: 41px;
+			border:0;
+			border-radius:4px;
+			background-color: #E83917;
+			font-size: 22px;
+			color: #FFFFFF;
+			
+
+
+	}
+
+	ul li:nth-child(6){
+		margin-top:26px;
+		font-size: 12px;
+		color: #99A5C2;
+		margin-bottom: 4px;
+		span{
+			color: #000000;
+		}
+		a{
+			color: #B2A5C2;
+		}
+	}
+	ul li:nth-child(5){
+		
+
+		.s1{
+			width: 23px;
+			height: 18px;
+			background:url('../img/6.png');
+			float: left;
+			display: block;
+			margin:0 8px;
+
+		}
+		.s2{
+			width: 23px;
+			height: 18px;
+			background:url('../img/7.png');
+			float: left;
+			display: block;
+			margin:0 8px;
+
+		}
+		.s3{
+			width: 23px;
+			height: 18px;
+			background:url('../img/8.png');
+			float: left;
+			display: block;
+			margin:0 8px;
+
+		}
+		.s4{
+			width: 23px;
+			height: 18px;
+			background:url('../img/9.png');
+			float: left;
+			display: block;
+			margin:0 8px;
+
+		}
+	}
+	ul li:nth-child(5) p{
+		font-size: 12px;
+		color: #99A5C2;
+		float: left;
+
+	}
+	ul li:nth-child(8){
+		font-size: 12px;
+		color: #000000;
+		margin-top: 22px;
+		margin-left: 63px;
+	}
+}
