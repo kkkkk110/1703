@@ -1,0 +1,252 @@
+// 去购物车结算
+.mainer .container{
+	width:1190px;
+	margin:0 auto; 
+}
+.mainer .container .goodslist{
+	position:relative;
+	height:526px;
+	.navp{
+		font-size: 14px;
+		line-height: 48px;
+		a{
+			margin:0 5px;
+		}
+		span{
+			margin:0 5px;
+		}
+		i{
+			margin:0 5px;
+			color: #A59999;
+		}
+	}
+}
+	.mainer .container .goodslist .buycar{
+		width: 196px;
+		height: 35px;
+		border:1px solid #E4E4E4;
+		background-color: #F9F9F9;
+		list-style:none;
+		float: right;
+		font-size: 14px;
+		text-align: center;
+		line-height: 35px;
+		a{
+			color:#7A7A7A; 
+		}
+
+	// .container .nul{
+	// 	position:absolute;
+	// 	top: 0;
+	// 	right: 0;
+	// 	li img{
+	// 		opacity: 0.8;
+	// 	}
+	// }
+
+	
+
+	}
+
+	.photo{
+		width: 352px;
+		height: 414px;
+		
+		float: left;
+	}
+	
+
+	.photo .goods{
+		border:1px solid #ccc;
+		width: 352px;
+		height: 352px;
+		position:relative;
+		img{
+			width: 100%;
+			height: 100%;
+			position:absolute;
+			top: 0;
+			left: 0;
+		}
+		
+
+	}
+	.photo .smallgoods{
+		width: 352px;
+		height: 56px;
+		padding:5px 25px 5px 25px;
+		position:relative;
+		span{
+			width:20px;
+			height: 54px;
+			border:1px solid #ccc;
+			text-align: center;
+			line-height: 54px;
+			background-color: #F9F9F9;
+			position:absolute;
+			top: 5px;;
+			left: 0;
+		}
+		img{
+			width: 56px;
+			height: 56px;
+			border:1px solid #ccc;
+			float: left;
+			margin-right: 5px;
+		}
+		img:hover{
+			border:1px solid #CC1D00;
+		}
+	}
+
+
+
+	// 购物车价格栏
+	
+	.price{
+	
+		margin-left: 27px;
+		float: left;
+
+		.thisnone{
+			display: none;
+		}
+		h3{
+			display: none;
+		}
+		.p1{
+			font-size: 18px;
+			span{
+				color: #FF5700;
+				font-size: 22px;
+				font-weight: 200;
+			}
+		}
+		.p6{
+			color: #999999;
+		}
+
+		.gray{
+			position:relative;
+			z-index: -2000;
+			margin-top: 18px;
+			width: 609px;
+			height: 95px;
+			background-color: #F7F7F7;
+			box-sizing:border-box;
+			padding-left:10px;
+			p{
+				font-size: 14px;
+				color: #666666;
+				line-height: 30px;
+
+			}
+			.s1{
+				font-weight: bold;
+				color: #DE2507;
+			}
+			.s3{
+				width: 43px;
+				height: 18px;
+				background-color: #B3AFE1;
+				color: #FFFFFF;
+				border-radius:4px;
+			}
+			.s4{
+				width: 43px;
+				height: 18px;
+				background-color: #CC1D00;
+				color: #FFFFFF;
+				border-radius:4px;
+			}
+		}
+
+		.p4{
+			color: #999999;
+			font-size: 14px;
+		}
+		.p2{
+			color:#444444;
+			font-size: 14px; 
+		}
+		.p5{
+			line-height: 34px;
+		}
+
+		.p3{
+			width: 161px;
+			height: 51px;
+			background-color: #CC1D00;
+			color: #FFFFFF;
+			font-size: 20px;
+			text-align: center;
+			line-height: 51px;
+			border:0;
+		}
+
+	}
+
+
+.mainer .container .introduce{
+	overflow: hidden;
+		.view{
+			float: left;
+			width: 219px;
+			overflow: hidden;
+			border:1px solid #ccc;
+			.liveshow>img{
+				width: 100%;
+			}
+			h3{
+				height: 33px;
+				background-color: #F7F7F7;
+				text-align: center;
+				font-size: 16px;
+				padding-top:10px;
+			}
+			.liveshow ul li{
+					width: 219px;
+					height: 249px;
+					border-bottom:1px dashed #ccc;
+					text-indent: center;
+					box-sizing:border-box;
+					padding:20px;
+					p{
+						font-size: 14px;
+						line-height: 20px;
+					}
+					.price{
+						color: #BB0200;
+						font-weight: bold;
+					}
+					img{
+						width: 147px;
+						height: 162px;
+					}
+
+			}
+		}
+}
+
+.mainer .container .introduce .in{
+	float:right;
+	.nav{
+		width: 950px;
+		height: 36px;
+		background-color: #F7F7F7;
+		border-top:1px solid #000000;
+		overflow: hidden;
+		p{
+			width: 92px;
+			height: 36px;
+			background-color: #FFFFFF;
+			float: left;
+			border-left:1px solid #ccc;
+			text-align: center;
+			line-height: 36px;
+		}
+	}
+	img{
+		margin:20px auto 0;
+	}
+}

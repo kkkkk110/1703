@@ -1,0 +1,13 @@
+require.config({
+	paths:{
+		jquery:'../lib/jquery3.1.1',
+		carousel:'../lib/danrujquery.xluCarousel',
+		zoom:'../lib/jquery.gdsZoom',
+		common:'common1',
+		details:'details'
+	},
+	shim:{
+		carousel:['jquery'],
+		zoom:['jquery']
+	}
+})
